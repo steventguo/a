@@ -12,7 +12,8 @@ The snippet I used below was written in Java, but it should be easily portable t
 
 {% highlight java %}
 
- public static String[] suffixArray = new String[] {"", "k", "M", "B", "T", "Qa", "Qi", "Sx", "Sp", "Oc", "No", "De", "UnD", "DuD", "TrD", "QaD", "QiD", "SeD", "SpD", "OcD", "NoD", "Vi", "UnV"}; 
+public static String[] suffixArray = new String[] {"", "k", "M", "B", "T", "Qa", "Qi", "Sx", "Sp", "Oc", "No", 
+"De", "UnD", "DuD", "TrD", "QaD", "QiD", "SeD", "SpD", "OcD", "NoD", "Vi", "UnV"}; 
 
 public static String format(double n, double d) {
         double l = (floor(Math.log(Math.abs(n)) / Math.log(10)) <= 0) ? 0 : floor(Math.log(Math.abs(n)) / Math.log(10));
