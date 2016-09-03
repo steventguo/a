@@ -30,4 +30,18 @@ In action, it looks something like this:
 
 {% highlight java %}
 
+System.out.println(1000 +" -> " +  format(1000));
+System.out.println(-1000000 +" -> " +  format(-1000000));
+System.out.println(1234567891234567891L +" -> " + format(1234567891234567891L));
+
+{% endhighlight %}
+
+which produces...
+
+{% highlight make %}
+
+I/System.out: 1000 -> 1.0k
+I/System.out: -1000000 -> -1.0M
+I/System.out: 1234567891234567891 -> 1.23Qi
+
 {% endhighlight %}
