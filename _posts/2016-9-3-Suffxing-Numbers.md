@@ -21,7 +21,7 @@ public static String format(double n, double d) {
         return r + suffixArray[(int)floor(l / 3)];
 }
 
-{& endhighlight %}
+{% endhighlight %}
   
 What's nice about this function is that each element in the suffixArray can be changed quickly and on the fly. Want a simple a -> b -> c suffix progression, instead of a confusing Qa -> Qi -> Sx one? All that has to be changed is the array of strings.
 
