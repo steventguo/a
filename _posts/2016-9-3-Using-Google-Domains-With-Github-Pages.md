@@ -37,8 +37,6 @@ whole process - something that should easily be done in five minutes.
 3. Change the custom domain for your Github repository.  
 
     * This is easily done by going to your repository's settings, and then looking for the section labeled 'Github Pages'. Simply fill in the 'Custom domain' box with 'yourdomain'!  
-    <br>
-    
     
     ![google domains]({{ site.url }}/assets/media/github_dns.png)  
     <br>
@@ -57,9 +55,7 @@ whole process - something that should easily be done in five minutes.
         - A **'www'** record, of type **'CNAME'**, with TTL of **'1h'** that points to **yourusername.github.io**.  
     <br>
     * When all is said and done, it should look something like the picture below:  
-     <br>
-
-
+    
      ![google domains]({{ site.url }}/assets/media/google_dns.png)  
      <br>
 
