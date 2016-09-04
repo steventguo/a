@@ -30,8 +30,8 @@ whole process - something that should easily be done in five minutes.
 5. Configure your Google Domain.
   Navigate to your dashboard, and tap into the DNS options for your domain. Find the section labeled 'custom resource records' at the bottom - it should ask for type and IPv4 address, among other things. In this section you will have to put **TWO** things:
 
-  1. An **'@'** record, of type **'A'**, with TTL of **'1h'** that points to Github at **'192.30.252.153'**.
-  2. A **'www'** record, of type **'CNAME'**, with TTL of **'1h'** that points to **<yourusername>.github.io**.
+  - An **'@'** record, of type **'A'**, with TTL of **'1h'** that points to Github at **'192.30.252.153'**.
+  - A **'www'** record, of type **'CNAME'**, with TTL of **'1h'** that points to **<yourusername>.github.io**.
   
   When all is said and done, it should look something like the picture below:
 
