@@ -7,11 +7,13 @@ description: Things my team and I learned and emphasized while hosting LA Hacks,
 ---
 
 I replied to a a question up on [/r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) a few days ago: what are good
-things to keep in mind when hosting a hackathon?
+things to keep in mind when hosting a hackathon?  
+<br>
 
 I'm on the team that hosts LA Hacks at UCLA. It's on the larger side of hackathons, sponsoring 36 hours of hacking with
 easily a thousand people involved. My role was organizing transportation for hackers throughout California, but I also sat in on
-nearly every meeting leading up to the event. 
+nearly every meeting leading up to the event.  
+<br>
 
 We learned a lot hosting the event - things we hope to keep in mind next year. I won't get into the nitty gritty of how to 
 contact partners and whatnot, but there are a few higher-level concepts that I think are critical to understand when trying to make
