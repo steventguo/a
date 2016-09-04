@@ -33,8 +33,7 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
             android:orientation="vertical"
             android:layout_height="46dp"
             android:background="#f6b637"
-            android:clickable="true" 
-    >
+            android:clickable="true" >
 
             <TextView
                 android:id="@+id/text1"
@@ -53,11 +52,27 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
         </LinearLayout>
     
     {% endhighlight %}  
-    <br>
     
-    ![LinearLayout]({{ site.url }}/assets/media/button_two_view.png)  
+![LinearLayout]({{ site.url }}/assets/media/button_two_view.png)  
     
 * We now have a flat layout that resembles a button, so on to making it clickable!
+
+    - In your activity (or fragment, wherever you have your item), we can define our `onClick` function like so:
+    
+    {% highlight java %} 
+    
+        LinearLayout linearLayout = (LinearLayout) view.findViewById(R.id.linearLayout);
+        linearLayout.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // whatever you want the button to do here    
+            }
+        });
+        
+    {% endhighlight %}  
+    
+* Voila! Easy as pie. We now have a clickable button that does what we want on touch, with two text views instead of the default one provided by the SDK!
+
+
 
     
     
