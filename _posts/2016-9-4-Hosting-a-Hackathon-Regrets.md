@@ -6,7 +6,8 @@ tags: [hackathon]
 description: The biggest regret I had after hosting LA Hacks, a major hackathon hosted at UCLA.
 ---
 
-Part two of my thoughts on hosting hackathons! 
+Part two of my thoughts on hosting hackathons!  
+<br>
 
 The last time [I talked about hackathons](http://www.cluelesscode.com/personal/2016/09/04/Hosting-a-Hackathon-Lessons.html), I discussed what I thought we did well - things our team should keep doing to keep LA Hacks successful. We didn't do everything right, though, and there's one specific item that really nags at me. It's definitely something I'll be sure to keep in the front of my mind for next year.
 
