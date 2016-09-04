@@ -55,7 +55,8 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
     
 * We now have a flat layout that resembles a button, so on to making it clickable!
 
-    - In your activity (or fragment, wherever you have your item), we can define our `onClick` function like so:
+    - In your activity (or fragment, wherever you have your item), we can define our `onClick` function like so:  
+    <br>
     
     {% highlight java %} 
         LinearLayout linearLayout = (LinearLayout) view.findViewById(R.id.linearLayout);
@@ -65,9 +66,11 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
             }
         });
     {% endhighlight %}  
-    <br>
     
-* If you want to customize the text inside the button...
+    
+<br>
+* If you want to customize the text inside the button...  
+<br>
 
     {% highlight java %} 
         TextView text1 = (TextView) view.findViewById(R.id.text1);
