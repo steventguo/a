@@ -57,7 +57,7 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
 
     - In your activity (or fragment, wherever you have your item), we can define our `onClick` function like so:
     
-    {% highlight java %} 
+    - {% highlight java %} 
         LinearLayout linearLayout = (LinearLayout) view.findViewById(R.id.linearLayout);
         linearLayout.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
