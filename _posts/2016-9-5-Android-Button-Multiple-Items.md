@@ -27,13 +27,14 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
     
     {% highlight xml %} 
     
-     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/cost"
             android:layout_width="80dp"
             android:orientation="vertical"
             android:layout_height="46dp"
             android:background="#f6b637"
-            android:clickable="true" >
+            android:clickable="true" 
+    >
 
             <TextView
                 android:id="@+id/text1"
@@ -57,8 +58,6 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
     ![LinearLayout]({{ site.url }}/assets/media/button_two_view.png)  
     
 * We now have a flat layout that resembles a button, so on to making it clickable!
-
-    - 
 
     
     
