@@ -21,10 +21,14 @@ whole process - something that should easily be done in five minutes.
 
 
 2. Create a **CNAME** file in your Github Pages repository.  
-  The first line in your CNAME file should contain your domain name. If, for example, your domain name is 'www.yourdomain.com', 
-  and you also want 'yourdomain.com' to redirect to 'www.yourdomain.com', add that in on the second line. It should look something
-  like this:  
-  ![google domains]({{ site.url }}/assets/media/cname.png)  
+
+    * The first line in your CNAME file should contain your domain name. If, for example, your domain name is 'www.yourdomain.com', 
+    and you also want 'yourdomain.com' to redirect to 'www.yourdomain.com', add that in on the second line. It should look something like this:  
+    
+    
+    ![google domains]({{ site.url }}/assets/media/cname.png)  
+
+
 
 3. Change the custom domain for your Github repository.  
   This is easily done by going to your repository's settings, and then looking for the section labeled 'Github Pages'. Simply fill
