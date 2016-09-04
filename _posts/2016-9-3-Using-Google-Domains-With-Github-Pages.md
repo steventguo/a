@@ -30,7 +30,7 @@ whole process - something that should easily be done in five minutes.
     <br>
     
     
-    ![google domains]({{ site.url }}/assets/media/cname.png)  
+    ![CNAME]({{ site.url }}/assets/media/cname.png)  
     <br>
 
 
@@ -38,7 +38,7 @@ whole process - something that should easily be done in five minutes.
 
     * This is easily done by going to your repository's settings, and then looking for the section labeled 'Github Pages'. Simply fill in the 'Custom domain' box with 'yourdomain'!  
     
-    ![google domains]({{ site.url }}/assets/media/github_dns.png)  
+    ![Github DNS]({{ site.url }}/assets/media/github_dns.png)  
     <br>
 
 
@@ -56,7 +56,7 @@ whole process - something that should easily be done in five minutes.
     <br>
     * When all is said and done, it should look something like the picture below:  
     
-     ![google domains]({{ site.url }}/assets/media/google_dns.png)  
+     ![Google DNS]({{ site.url }}/assets/media/google_dns.png)  
 
 5. Done!
 
