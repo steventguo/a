@@ -11,6 +11,10 @@ h1 {
 	font-family: sans-serif !important;
 }
 
+h3 {
+	font-family: sans-serif !important;
+}
+
 .sidebar {
 	position: fixed;
 	top: 0px;
