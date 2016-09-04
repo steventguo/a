@@ -62,4 +62,9 @@ whole process - something that should easily be done in five minutes.
 
 5. Done!
 
-    * You should be able to navigate to <yourdomain> and the page hosted in your Github repository will show up!
+    * You should be able to navigate to <yourdomain> and the page hosted in your Github repository will show up!  
+    <br>
+    
+    
+    
+    
