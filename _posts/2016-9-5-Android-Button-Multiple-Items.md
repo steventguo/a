@@ -49,7 +49,9 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
 
         </LinearLayout>
     {% endhighlight %}  
-    <br>
+    
+
+<br>
     
     
 ![LinearLayout]({{ site.url }}/assets/media/button_two_view.png)  
