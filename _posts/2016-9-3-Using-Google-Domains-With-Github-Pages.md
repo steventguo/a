@@ -16,7 +16,7 @@ whole process - something that should easily be done in five minutes.
     * The domain ran $12 a year for me, as of 9/3/2016. Navigate onto the site and start a search for your desired domain name. The page should look something like the picture below:
     ![google domains]({{ site.url }}/assets/media/google_domains.png)  
     * As soon as you've found the domain you'd like to claim, check out and you're done! Whatever domain you've registered, I'll refer to from now on as 'yourdomain'.  
-
+  
 2. Create a **CNAME** file in your Github Pages repository.  
   The first line in your CNAME file should contain your domain name. If, for example, your domain name is 'www.yourdomain.com', 
   and you also want 'yourdomain.com' to redirect to 'www.yourdomain.com', add that in on the second line. It should look something
