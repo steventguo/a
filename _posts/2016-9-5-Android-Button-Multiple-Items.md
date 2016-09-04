@@ -57,6 +57,9 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
 
 ![LinearLayout]({{ site.url }}/assets/media/button_two_view.png)  
     
+    
+<br>
+
 * We now have a flat layout that resembles a button, so on to making it clickable!
 
     - In your activity (or fragment, wherever you have your item), we can define our `onClick` function like so:  
