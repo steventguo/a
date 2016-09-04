@@ -51,6 +51,10 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
         </LinearLayout>
     {% endhighlight %}  
     
+    
+<br>
+
+
 ![LinearLayout]({{ site.url }}/assets/media/button_two_view.png)  
     
 * We now have a flat layout that resembles a button, so on to making it clickable!
@@ -81,6 +85,7 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
     {% endhighlight %}  
 
 
+<br>
 * Voila! We now have a clickable button that does what we want on touch, with two text views instead of the default one provided by the SDK. It's easily customizable, given that you don't want two `TextViews` or a `LinearLayout` - simply change the XML and typing of the Java snippets, and it's good to go. On the same vein, styling the XML so that it's not an ugly orange button with ugly text is probably a good idea too.
 
 
