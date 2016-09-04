@@ -12,7 +12,7 @@ Suffixing large numbers with a letter tag
 In some cases, numbers can get pretty huge - and pretty ugly and unusable. As I built out my incremenetal (read: idle/clicker) game, I ran into the problem of my numbers growing way too big, way too fast. I didn't have space for all the characters to represent numbers beyond the thousands. The obvious solution was to suffix them - 1,000 becomes 1k, 1,000,000 becomes 1M, and so on.  
 <br>
 
-The snippet I used below was written in Java, but it should be easily portable to any language, providing the right math utility functions.  
+The snippet I used below was written in Java, but it should be easily portable to any language, so long as it provides the right math utility functions.  
 <br>
 
 {% highlight java %}
