@@ -41,6 +41,7 @@ whole process - something that should easily be done in five minutes.
         - An **'@'** record, of type **'A'**, with TTL of **'1h'** that points to Github at **'192.30.252.153'**.
         - A **'www'** record, of type **'CNAME'**, with TTL of **'1h'** that points to **<yourusername>.github.io**.  
      * When all is said and done, it should look something like the picture below:
+     
      ![google domains]({{ site.url }}/assets/media/google_dns.png)  
      <br>
 
