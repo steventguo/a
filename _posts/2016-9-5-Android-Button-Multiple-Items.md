@@ -9,7 +9,7 @@ description: Android provides a nice pre-defined button for programmers to use, 
 Wanting to customize your Android buttons is a pretty common issue - but not exactly obvious to a beginner programmer. If you're familiar with onClick functions for HTML5 divs, then this snippet is a lot like that - we're simply defining our own layout and making it clickable.  
 <br>
 
-In the example below, I'm going to create a **button with two TextViews** inside it, but the solution can easily be adapted to suit needs.
+In the example below, I'm going to create a **button with two `TextViews`** inside it, but the solution can easily be adapted to suit needs.
 
 ***
 
@@ -17,10 +17,10 @@ In the example below, I'm going to create a **button with two TextViews** inside
 
     - I defined mine as a `LinearLayout`, but you can use whatever layout would fit your button the best.  <br>
     
-    - Inside of the `LinearLayout`}, I defined two `TextView` elements, which makes our final layout look something like...  
+    - Inside of the `LinearLayout`, I defined two `TextView` elements, which makes our final layout look something like...  
     <br>
     
-    {% highlight xml %} 
+    - {% highlight xml %} 
     
      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="80dp"
