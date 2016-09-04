@@ -10,13 +10,14 @@ Wanting to customize your Android buttons is a pretty common issue - but not exa
 <br>
 
 In the example below, I'm going to create a **button with two TextViews** inside it, but the solution can easily be adapted to suit needs.
+
 ***
 
 * First, we're going to need an XML layout.
 
-    - I defined mine as a {% highlight java %} LinearLayout {% endhighlight %}, but you can use whatever layout would fit your button the best.  <br>
+    - I defined mine as a `LinearLayout`, but you can use whatever layout would fit your button the best.  <br>
     
-    - Inside of the {% highlight java %} LinearLayout {% endhighlight %}, I defined two {% highlight java %} TextView {% endhighlight %}, which makes our final layout look something like...  
+    - Inside of the `LinearLayout`}, I defined two `TextView` elements, which makes our final layout look something like...  
     <br>
     
     {% highlight xml %} 
