@@ -6,11 +6,14 @@ tags: [java]
 description: Proper handling and suffixing of overly large numbers, because we don't always have the space to display 2147483647.
 ---
 
-Suffixing large numbers with a letter tag
+Suffixing large numbers with a letter tag  
+<br>
 
-In some cases, numbers can get pretty huge - and pretty ugly and unusable. As I built out my incremenetal (read: idle/clicker) game, I ran into the problem of my numbers growing way too big, way too fast. I didn't have space for all the characters to represent numbers beyond the thousands. The obvious solution was to suffix them - 1,000 becomes 1k, 1,000,000 becomes 1M, and so on.
+In some cases, numbers can get pretty huge - and pretty ugly and unusable. As I built out my incremenetal (read: idle/clicker) game, I ran into the problem of my numbers growing way too big, way too fast. I didn't have space for all the characters to represent numbers beyond the thousands. The obvious solution was to suffix them - 1,000 becomes 1k, 1,000,000 becomes 1M, and so on.  
+<br>
 
-The snippet I used below was written in Java, but it should be easily portable to any language, providing the right math utility functions.
+The snippet I used below was written in Java, but it should be easily portable to any language, providing the right math utility functions.  
+<br>
 
 {% highlight java %}
 
@@ -25,8 +28,11 @@ public static String format(double n) {
 }
 
 {% endhighlight %}
-  
-What's nice about this function is that each element in the suffixArray can be changed quickly and on the fly. Want a simple a -> b -> c suffix progression, instead of a confusing Qa -> Qi -> Sx one? All that has to be changed is the array of strings.
+
+<br>
+
+What's nice about this function is that each element in the suffixArray can be changed quickly and on the fly. Want a simple a -> b -> c suffix progression, instead of a confusing Qa -> Qi -> Sx one? All that has to be changed is the array of strings.  
+<br>
 
 In action, it looks something like this:
 
