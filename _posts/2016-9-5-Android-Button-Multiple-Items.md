@@ -26,7 +26,6 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
     <br>
     
     {% highlight xml %} 
-    
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/cost"
             android:layout_width="80dp"
@@ -50,7 +49,6 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
                 android:layout_gravity="left" />
 
         </LinearLayout>
-    
     {% endhighlight %}  
     
 ![LinearLayout]({{ site.url }}/assets/media/button_two_view.png)  
@@ -60,15 +58,15 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
     - In your activity (or fragment, wherever you have your item), we can define our `onClick` function like so:
     
     {% highlight java %} 
-    
         LinearLayout linearLayout = (LinearLayout) view.findViewById(R.id.linearLayout);
         linearLayout.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // whatever you want the button to do here    
             }
         });
-        
     {% endhighlight %}  
+    
+    - abcdefef
     
 * Voila! Easy as pie. We now have a clickable button that does what we want on touch, with two text views instead of the default one provided by the SDK!
 
