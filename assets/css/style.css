@@ -8,6 +8,7 @@ body{
 
 h1 {
 	padding: 0 5% 0;
+	font-family: sans-serif !important;
 }
 
 .sidebar {
@@ -43,8 +44,8 @@ a.nav-link i{
 a.nav-link:hover { color: #777; }
 
 #bio {
-	font-family: "Courier New", Courier, monospace;
-	font-size: 11px;
+	font-family:sans-serif;
+	font-size: 12px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
