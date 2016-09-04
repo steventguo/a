@@ -57,7 +57,7 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
 
     - In your activity (or fragment, wherever you have your item), we can define our `onClick` function like so:
     
-    - {% highlight java %} 
+    {% highlight java %} 
         LinearLayout linearLayout = (LinearLayout) view.findViewById(R.id.linearLayout);
         linearLayout.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -65,10 +65,20 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
             }
         });
     {% endhighlight %}  
+    <br>
     
-    - abcdefef
-    
-* Voila! Easy as pie. We now have a clickable button that does what we want on touch, with two text views instead of the default one provided by the SDK!
+* If you want to customize the text inside the button...
+
+    {% highlight java %} 
+        TextView text1 = (TextView) view.findViewById(R.id.text1);
+        text1.setText("yourdesiredtext");
+
+        TextView text2 = (TextView) view.findViewById(R.id.text2);
+        text2.setText("yourdesiredtext");
+    {% endhighlight %}  
+
+
+* Voila! We now have a clickable button that does what we want on touch, with two text views instead of the default one provided by the SDK. It's easily customizable, given that you don't want two `TextViews` or a `LinearLayout` - simply change the XML and typing of the Java snippets, and it's good to go. On the same vein, styling the XML so that it's not an ugly orange button with ugly text is probably a good idea too.
 
 
 
