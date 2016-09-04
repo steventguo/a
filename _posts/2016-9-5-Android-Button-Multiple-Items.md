@@ -49,7 +49,8 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
 
         </LinearLayout>
     {% endhighlight %}  
-    
+
+
 
 <br>
     
