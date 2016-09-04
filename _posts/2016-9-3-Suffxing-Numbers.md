@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Working with big numbers in a small space
-categories: [snippets, java, devblog]
-tags: [java, devblog]
+title: Working to Suffix Large Numbers
+categories: [snippets, devblog]
+tags: [java]
 description: Proper handling and suffixing of overly large numbers, because we don't always have the space to display 2147483647.
 ---
 
