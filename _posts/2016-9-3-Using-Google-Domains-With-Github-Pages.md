@@ -2,9 +2,8 @@
 layout: post
 title: Using Google Domains with Github Pages
 categories: [snippets, devops]
-tags: []
-description: Hooking up a custom domain purchased through google domains with your site hosted through github
-- no more <username>.github.io sites!
+tags: [devops]
+description: Hooking up a custom domain purchased through google domains with your site hosted through github - no more <username>.github.io sites!
 ---
 
 Setting up my github page to use a custom domain was difficult for me. I'm not sure if it's because I'm incompetent or the guides
