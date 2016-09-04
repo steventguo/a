@@ -57,8 +57,6 @@ whole process - something that should easily be done in five minutes.
     * When all is said and done, it should look something like the picture below:  
     
      ![google domains]({{ site.url }}/assets/media/google_dns.png)  
-     <br>
-
 
 5. Done!
 
