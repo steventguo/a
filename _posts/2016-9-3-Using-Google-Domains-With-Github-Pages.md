@@ -3,7 +3,7 @@ layout: post
 title: Using Google Domains with Github Pages
 categories: [snippets, devops]
 tags: [devops]
-description: Hooking up a custom domain purchased through google domains with your site hosted through github - no more <username>.github.io sites!
+description: Hooking up a custom domain purchased through google domains with your site hosted through github - no more username.github.io sites!
 ---
 
 Setting up my github page to use a custom domain was difficult for me. I'm not sure if it's because I'm incompetent or the guides
@@ -14,8 +14,8 @@ whole process - something that should easily be done in five minutes.
 1. Register a domain with [Google Domains](https://domains.google/)  
       
     * The domain ran $12 a year for me, as of 9/3/2016. Navigate onto the site and start a search for your desired domain name. The page should look something like the picture below:
-    ![google domains]({{ site.url }}/assets/media/google_domains.png)
-    * As soon as you've found the domain you'd like to claim, check out and you're done! Whatever domain you've registered, I'll refer to from now on as <yourdomain>.  
+    ![google domains]({{ site.url }}/assets/media/google_domains.png)  
+    * As soon as you've found the domain you'd like to claim, check out and you're done! Whatever domain you've registered, I'll refer to from now on as 'yourdomain'.  
 
 2. Create a **CNAME** file in your Github Pages repository.  
   The first line in your CNAME file should contain your domain name. If, for example, your domain name is 'www.yourdomain.com', 
