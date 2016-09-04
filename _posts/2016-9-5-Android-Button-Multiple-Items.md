@@ -15,20 +15,25 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
 
 * First, we're going to need an XML layout.
 
-    - I defined mine as a `LinearLayout`, but you can use whatever layout would fit your button the best.  <br>
-    
-    - Inside of the `LinearLayout`, I defined two `TextView` elements, which makes our final layout look something like...  
+    - I defined mine as a `LinearLayout`, but you can use whatever layout would fit your button the best.  
     <br>
     
-    - {% highlight xml %} 
+    - Inside of the `LinearLayout`, I defined two `TextView` elements.  
+    <br>
+    
+    - The `LinearLayout` must be defined with the tag `android:clickable="true"`! If that property isn't present, your Layout
+    will never click! Our final layout looks something like this...  
+    <br>
+    
+    {% highlight xml %} 
     
      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/cost"
             android:layout_width="80dp"
             android:orientation="vertical"
             android:layout_height="46dp"
             android:background="#f6b637"
-            android:clickable="true"
-            android:id="@+id/relLayout">
+            android:clickable="true" >
 
             <TextView
                 android:id="@+id/text1"
@@ -49,7 +54,12 @@ In the example below, I'm going to create a **button with two `TextViews`** insi
     {% endhighlight %}  
     <br>
     
-    - That gives us a flat layout that resembles a button - half way there!
+    ![LinearLayout]({{ site.url }}/assets/media/button_two_view.png)  
+    
+* We now have a flat layout that resembles a button, so on to making it clickable!
+
+    - 
+
     
     
 
