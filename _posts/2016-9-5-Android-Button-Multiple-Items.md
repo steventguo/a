@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating an Android Button with Multiple Internals
+title: Creating an Android Button with Multiple Internal Components
 categories: [snippets]
 tags: [Android, XML, Java]
 description: Android provides a nice pre-defined button for programmers to use, but it has its limitations - you can't really edit the internal content, outside of having label text. This is a quick snippet that allows for multiple internal elements - an Android button with two labels, a button with an ImageView, and anything else you'd want to stash inside.
