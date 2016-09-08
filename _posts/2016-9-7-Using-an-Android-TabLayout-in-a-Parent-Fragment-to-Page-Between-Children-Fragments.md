@@ -67,6 +67,8 @@ Complete code is located at the bottom, or you can follow along step-by-step wit
     {% endhighlight %}  
 
 
+<br>
+      
 *  Create your child fragments. 
 
     - Again, we're going to define a fragment as usual. We're only going to define two basically blank fragments with different background colors, just to illustrate the switching between them.
