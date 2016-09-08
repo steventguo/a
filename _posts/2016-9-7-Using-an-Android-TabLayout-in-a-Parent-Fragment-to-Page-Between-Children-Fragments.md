@@ -188,8 +188,11 @@ Complete code is located at the bottom, or you can follow along step-by-step wit
 		        viewPager.setAdapter(adapter);
 		    }
 	}
-    {% endhighlight %}
+    {% endhighlight %}  
 
+
+<br>
+    
 * Almost there! Lastly, we need to use our `setupViewPager` function to actually setup the `ViewPager` in `HostFragment`. 
 
     - In your `onCreateView` method, add the following lines:
