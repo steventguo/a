@@ -5,7 +5,6 @@ categories: [snippets]
 tags: [Android, XML, Java]
 description: It's pretty easy to find tutorials on how to use a `TabLayout` within an activity, as well as to find those that page through a bunch of views. I had difficulty finding a proper explanation for my use case - how to use a `TabLayout` within a fragment, which in turn would host other fragments as the user scrolled between tabs.
 ---
-
 Android Tutorial: Using an Android TabLayout in a Parent Fragment to Switch Between Child Fragments
 
 It's pretty easy to find tutorials on how to use a `TabLayout` within an activity, as well as to find those that page through a bunch of views. I had difficulty finding a proper explanation for my use case - how to use a `TabLayout` within a fragment, which in turn would host other fragments as the user scrolled between tabs. It's not difficult, but I found it extremely confusing as a beginner Android programmer.
@@ -17,10 +16,8 @@ I'm going to assume that how to use the fragment itself is already known - I'll 
 1. Define your host fragment's layout.
 
   - As always, we need to define a layout before we can do anything else. We'll need to define a layout with a `TabLayout` and a `ViewPager` as child elements.
-
-  host_fragment_layout.xml
-  {% highlight xml %}
-
+  
+{% highlight xml %}
   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
@@ -43,8 +40,7 @@ I'm going to assume that how to use the fragment itself is already known - I'll 
         android:layout_weight="1" />
 
 	</LinearLayout>
-
-	{% endhighlight %}
+{% endhighlight %}
 
 
 2. Create your host fragment.
@@ -52,7 +48,6 @@ I'm going to assume that how to use the fragment itself is already known - I'll 
   - We're going to define a fragment in typical fashion, overriding `onCreateView` and `onDestroyView`. Easy enough, right?
 
   {% highlight java %}
-
 public class HostFragment extends Fragment {
 
     @Override
@@ -102,8 +97,6 @@ public class ChildFragment2 extends Fragment {
 
  {% endhighlight %}
 
-and their corresponding xml...
-
 {% highlight xml %}
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -136,7 +129,7 @@ and their corresponding xml...
 
 </LinearLayout>
 
-{% end highlight %}
+{% endhighlight %}
 
 4. Define an adapter.
 
