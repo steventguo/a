@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using an Android TabLayout in a Parent Fragment to Page Between
+title: Using an Android TabLayout in a Parent Fragment to Page Between Children Fragments
 categories: [snippets]
 tags: [Android, XML, Java]
 description: It's pretty easy to find tutorials on how to use a `TabLayout` within an activity, as well as to find those that page through a bunch of views. I had difficulty finding a proper explanation for my use case - how to use a `TabLayout` within a fragment, which in turn would host other fragments as the user scrolled between tabs.
