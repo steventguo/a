@@ -176,8 +176,6 @@ and their corresponding xml...
 
 {% highlight java %}
 public class HostFragment extends Fragment {
-
-	...
 	private Adapter adapter;
 
 	private void setupViewPager(ViewPager viewPager) {
@@ -186,8 +184,6 @@ public class HostFragment extends Fragment {
 	        adapter.addFragment(new ChildFragment2());
 	        viewPager.setAdapter(adapter);
 	    }
-	...
-
 }
 {% endhighlight %}
 
