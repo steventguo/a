@@ -73,7 +73,7 @@ Complete code is located at the bottom, or you can follow along step-by-step wit
 
     - Again, we're going to define a fragment as usual. We're only going to define two basically blank fragments with different background colors, just to illustrate the switching between them.
 
-    - The Java code for the fragments:
+    - The Java code for the fragments, and their corresponding layouts...:
 
     {% highlight java %}
 	public class ChildFragment1 extends Fragment {
