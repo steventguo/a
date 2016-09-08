@@ -65,8 +65,8 @@ Complete code is located at the bottom, or you can follow along step-by-step wit
 	    }
 	}
     {% endhighlight %}  
-    
-    
+
+
 </br>    
 
 *  Create your child fragments. 
@@ -87,7 +87,8 @@ Complete code is located at the bottom, or you can follow along step-by-step wit
 	        return view;
 	    }
 	}
-	
+    {% endhighlight %}
+    {% highlight java %}
 	public class ChildFragment2 extends Fragment {
 	
 	    private View view;
@@ -116,7 +117,8 @@ Complete code is located at the bottom, or you can follow along step-by-step wit
 	        android:text="fragment 1" />
 	
 	</LinearLayout>
-  
+    {% endhighlight %}
+    {% highlight xml %}
 	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	    android:layout_width="match_parent"
 	    android:layout_height="match_parent"
@@ -132,8 +134,8 @@ Complete code is located at the bottom, or you can follow along step-by-step wit
 	
 	</LinearLayout>
     {% endhighlight %}  
-    
-    
+
+
 <br>
 
 * Define an adapter.
@@ -188,7 +190,7 @@ Complete code is located at the bottom, or you can follow along step-by-step wit
 	}
     {% endhighlight %}
 
-* Almost there! Lastly, we're need to use our `setupViewPager` function to actually setup the `ViewPager` in `HostFragment`. 
+* Almost there! Lastly, we need to use our `setupViewPager` function to actually setup the `ViewPager` in `HostFragment`. 
 
     - In your `onCreateView` method, add the following lines:
 
