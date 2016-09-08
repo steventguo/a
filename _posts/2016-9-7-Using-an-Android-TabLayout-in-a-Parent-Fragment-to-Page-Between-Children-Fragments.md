@@ -207,7 +207,7 @@ Complete code is located at the bottom, or you can follow along step-by-step wit
 	        // [1]
 	        final ViewPager viewPager = (ViewPager) view.findViewById(R.id.viewpager);
 	        setupViewPager(viewPager);
-	        // 2 
+	        // [2] 
 	        TabLayout tabLayout = ButterKnife.findById(view, R.id.tabs);
 	        tabLayout.setupWithViewPager(viewPager);
 	
