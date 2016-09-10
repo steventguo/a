@@ -9,6 +9,7 @@ disqus:
 google_analytics: cluelesscoder
 title: Clueless Coder
 
+url: http://www.cluelesscode.com
 defaults:
   -
     scope:
